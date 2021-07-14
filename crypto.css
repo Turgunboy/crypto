@@ -1,0 +1,43 @@
+.coin {
+  background: linear-gradient(45deg, rgb(255, 3, 3), rgb(0, 0, 255));
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  width: 900px;
+  max-width: 1100px;
+  height: 500px;
+  background: #fff;
+  text-align: center;
+}
+.coin th,
+.coin td {
+  border: 1px solid;
+  padding: 10px;
+  margin: 3px;
+  margin-left: 15px;
+}
+.coin img {
+  width: 40px;
+  height: 40px;
+
+  margin-right: 10px;
+}
+.coin td {
+  background: #eee;
+}
+.coin .coin-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.red {
+  color: red;
+}
+.green {
+  color: green;
+}
